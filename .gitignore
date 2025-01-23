@@ -2,3 +2,7 @@ ICanAddThis.txt
 DoNotPush.txt
 ../DoNotPushFolder
 test.txt
+.terraform
+.terraform.lock.hcl
+terraform.tfstate.backup
+terraform.tfstate
