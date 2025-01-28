@@ -21,7 +21,7 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "JordansAppServer"
   }
-  user_data = file("script.sh")
+  user_data = "${file("script.sh")}"
   # user_data = <<-EOT
   #   #!/bin/bash
   #   sudo yum update -y
