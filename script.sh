@@ -27,10 +27,7 @@ echo "Installing Git..."
 sudo apt-get install git -y
 
 # GitHub CLI authentication (this requires your GitHub credentials to be set up)
-echo "Authenticating with GitHub..."
-# gh auth login --with-token <<< "{Token}"
-eval "$(ssh-agent -s)"
-ssh-add /home/ubuntu/.ssh/github_key
+
 
 
 # Clone your GitHub repository
@@ -45,3 +42,8 @@ cd /home/ubuntu/JordanRepo
 # npm install
 
 echo "GitHub repository cloned successfully."
+
+
+sudo apt-get install python3.12
+
+pip install Flask
