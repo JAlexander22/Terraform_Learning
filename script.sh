@@ -47,3 +47,7 @@ echo "GitHub repository cloned successfully."
 sudo apt-get install python3.12
 
 pip install Flask
+
+cd /JordansRepo/Flask_Website
+
+python app.py
